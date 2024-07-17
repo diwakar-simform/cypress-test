@@ -6,7 +6,6 @@ records
 cypress/screenshots
 cypress/videos
 cypress/excelJSUtil
-cypress/e2e
 cypress/downloads
 cypress/cypress
 cypress/integration/examples

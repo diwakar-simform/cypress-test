@@ -1,0 +1,15 @@
+node_modules
+allure-report
+allure-results
+mochawesome-report
+records
+cypress/screenshots
+cypress/videos
+cypress/excelJSUtil
+cypress/e2e
+cypress/downloads
+cypress/cypress
+cypress/integration/examples
+cypress/integration/GreenKart
+cypress/integration/PageObject
+cypress/reports

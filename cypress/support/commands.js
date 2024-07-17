@@ -12,16 +12,16 @@
 // -- This is a parent command --
 // Cypress.Commands.add('login', (email, password) => { ... })
 
-import ProductPage from "../integration/PageObject/ProductPage";
+// import ProductPage from "../integration/PageObject/ProductPage";
 
-const productPage = new ProductPage();
-Cypress.Commands.add('selectProduct', function(productName) { 
-    productPage.getProductName().each( function(element, index, list) {
-        if (element.text().includes(productName)) {
-            productPage.getCartButton().eq(index).click();
-        }
-    })
- })
+// const productPage = new ProductPage();
+// Cypress.Commands.add('selectProduct', function(productName) { 
+//     productPage.getProductName().each( function(element, index, list) {
+//         if (element.text().includes(productName)) {
+//             productPage.getCartButton().eq(index).click();
+//         }
+//     })
+//  })
 
  Cypress.Commands.add('LoginAPI', function() {
     cy.request('POST', 'https://rahulshettyacademy.com/api/ecom/auth/login',
